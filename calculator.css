@@ -53,3 +53,44 @@ body{
     /* background-image: linear-gradient(to right, black,rgb(2, 2, 32)); */
     background-color: black;
 }
+
+
+@media screen and (max-width: 480px) {
+    h1{
+    text-align: center;
+    color: white;
+    }
+    .container{
+        width: 400px;
+        /* height: 540px; */
+        height: 460px;
+        background-color: blueviolet;
+        margin: auto;
+        padding: 10px;
+    }
+    #screen{
+        height: 50px;
+        width: 300px;
+        margin: 5px;
+        font-size: 1.5rem;
+        text-align: right;
+        border-radius: 10px;
+    
+    }
+    .button{
+        background-color: black;
+        color: white;
+        width: 50px;
+        height: 60px;
+        font-size: 1rem;
+        /* margin: 10px; */
+        border-radius: 15px;
+    }
+    .clear{
+        background-color: rgb(160, 12, 12);
+    }
+    .operator{
+        background-color: rgb(36, 27, 27);
+    }
+    
+}
