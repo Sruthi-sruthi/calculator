@@ -61,7 +61,7 @@ body{
     color: white;
     }
     .container{
-        width: 400px;
+        width: 345px;
         /* height: 540px; */
         height: 460px;
         background-color: blueviolet;
@@ -89,8 +89,6 @@ body{
     .clear{
         background-color: rgb(160, 12, 12);
     }
-    .operator{
-        background-color: rgb(36, 27, 27);
-    }
+    
     
 }
